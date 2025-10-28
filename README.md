@@ -26,3 +26,19 @@ ___
 - All work must be your own. During the grading process we will check the revision history. Submissions that do not meet this requirement will not be considered.
 - You must have at least two new routes in your index.js file and one new pug template for the homepage.
 - You must create a developer test account and link to it in your README.md file. Submissions that do not meet this requirement will not be considered.
+HubSpot Developer Test Account Link:
+https://app-eu1.hubspot.com/contacts/147128767/objects/0-1/views/all/list
+
+## My Practicum Project
+This project connects to my HubSpot account using a private app token and displays Contacts from the CRM.
+
+### Routes
+- `/` → Displays all Contacts
+- `/add-contact` → Form to add new Contact
+
+### Tech Stack
+- Node.js
+- Express
+- Axios
+- Pug
+

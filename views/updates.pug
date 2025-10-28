@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title Update Custom Object Form | Integrating With HubSpot I Practicum
+    link(rel="stylesheet", href="/css/style.css")
+  body
+    h1 Add New Contact
+    form(action="/update-cobj" method="POST")
+      label(for="firstname") First Name:
+      input(type="text" name="firstname" required)
+      br
+      label(for="lastname") Last Name:
+      input(type="text" name="lastname" required)
+      br
+      label(for="email") Email:
+      input(type="email" name="email" required)
+      br
+      button(type="submit") Add Contact
+    br
+    a(href="/") Return to the homepage
